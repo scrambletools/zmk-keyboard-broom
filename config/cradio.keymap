@@ -116,16 +116,16 @@
 &bt BT_NXT  &bt BT_CLR_ALL  &none          &none              &ht LG(X) LG(C)    &kp RS(SQT)  &kp LPAR          &kp RPAR           &kp PERCENT     &none
 &kp LSHFT   &kp LALT        &kp LCTRL      &kp LGUI           &kp LG(V)          &kp SQT      &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp UNDERSCORE  &kp MINUS
 &none       &kp RG(ESC)     &kp RG(SPACE)  &kp RG(RA(SPACE))  &kp LG(Z)          &kp GRAVE    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp TILDE       &kp BACKSLASH
-                                           &none              &kp TAB            &kp SPACE    &lt 1 BACKSPACE
+                                           &none              &kp TAB            &kp SPACE    &kp BACKSPACE
             >;
         };
 
         symbols-2 {
             bindings = <
-&kp F1        &kp F2       &kp F3        &kp F4       &kp C_VOLUME_UP             &kp AT_SIGN  &kp CARET           &kp DOLLAR    &kp EXCLAMATION  &none
-&ht LSHFT F5  &ht LALT F6  &ht LCTRL F7  &ht LGUI F8  &ht K_VOLUME_DOWN K_MUTE    &kp HASH     &kp PLUS            &kp ASTERISK  &kp AMPERSAND    &kp MINUS
-&kp F9        &kp F10      &kp F11       &kp F12      &ht K_NEXT K_PLAY_PAUSE     &kp EQUAL    &kp MINUS           &kp SLASH     &kp PIPE         &none
-                                         &none        &kp TAB                     &kp SPACE    &l1mod 1 BACKSPACE
+&kp F1        &kp F2       &kp F3        &kp F4       &kp C_VOLUME_UP             &kp AT_SIGN  &kp CARET      &kp DOLLAR    &kp EXCLAMATION  &none
+&ht LSHFT F5  &ht LALT F6  &ht LCTRL F7  &ht LGUI F8  &ht K_VOLUME_DOWN K_MUTE    &kp HASH     &kp PLUS       &kp ASTERISK  &kp AMPERSAND    &kp MINUS
+&kp F9        &kp F10      &kp F11       &kp F12      &ht K_NEXT K_PLAY_PAUSE     &kp EQUAL    &kp MINUS      &kp SLASH     &kp PIPE         &none
+                                         &none        &kp TAB                     &kp SPACE    &kp BACKSPACE
             >;
         };
     };
