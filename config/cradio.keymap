@@ -26,14 +26,12 @@
             compatible = "zmk,behavior-tap-dance";
             label = "MULTI_LAYER";
             #binding-cells = <0>;
-            bindings = <&osl 2 2>, <&osl 3 3>;
-
-            tapping-term-ms = <200>;
+            bindings = <&osl2 2 2>, <&osl3 3 3>;
         };
 
-        osl: osl {
+        osl2: osl2 {
             compatible = "zmk,behavior-hold-tap";
-            label = "OSL";
+            label = "OSL2";
             bindings = <&mo>, <&sl>;
 
             #binding-cells = <2>;
@@ -52,6 +50,15 @@
             label = "SLRET";
             #binding-cells = <0>;
             bindings = <&kp SLASH>, <&kp RET>;
+        };
+
+        osl3: osl3 {
+            compatible = "zmk,behavior-hold-tap";
+            label = "OSL3";
+            bindings = <&mo>, <&sl>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
         };
     };
 
