@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: MIT
 
 #include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
 // Home row mods macro
@@ -95,10 +96,10 @@
 
         symbols-1 {
             bindings = <
-&none      &none        &none          &none              &ht LG(X) LG(C)    &kp RS(SQT)  &kp LPAR          &kp RPAR           &kp PERCENT     &none
-&kp LSHFT  &kp LALT     &kp LCTRL      &kp LGUI           &kp LG(V)          &kp SQT      &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp UNDERSCORE  &kp MINUS
-&none      &kp RG(ESC)  &kp RG(SPACE)  &kp RG(RA(SPACE))  &kp LG(Z)          &kp GRAVE    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp TILDE       &kp BACKSLASH
-                                       &to 0              &kp TAB            &kp SPACE    &lt 1 BACKSPACE
+&bt BT_NXT  &bt BT_CLR_ALL  &none          &none              &ht LG(X) LG(C)    &kp RS(SQT)  &kp LPAR          &kp RPAR           &kp PERCENT     &none
+&kp LSHFT   &kp LALT        &kp LCTRL      &kp LGUI           &kp LG(V)          &kp SQT      &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp UNDERSCORE  &kp MINUS
+&none       &kp RG(ESC)     &kp RG(SPACE)  &kp RG(RA(SPACE))  &kp LG(Z)          &kp GRAVE    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp TILDE       &kp BACKSLASH
+                                           &to 0              &kp TAB            &kp SPACE    &lt 1 BACKSPACE
             >;
         };
 
