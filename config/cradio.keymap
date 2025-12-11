@@ -26,7 +26,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "MULTI_LAYER";
             #binding-cells = <0>;
-            bindings = <&osl2 2 2>, <&osl3 3 3>;
+            bindings = <&sl 2>, <&sl 3>;
         };
 
         osl2: osl2 {
